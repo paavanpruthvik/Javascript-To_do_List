@@ -1,0 +1,93 @@
+.con1{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+    padding: 0px 0px 10px 0px;
+}
+#description, .tti{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 2px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+
+.heading1{
+    text-align: left;
+    padding: 2px 365px 2px 2px;
+    font-size: 25px;
+    color: white;
+}
+.heading2{
+    text-align: left;
+    padding: 2px 290px 2px 2px;
+    font-size: 25px;
+    color: white;
+}
+.nna{
+    text-align: left;
+    padding: 2px 275px 2px 2px;
+    font-size: 15px;
+    color: rgb(43, 40, 40);
+}
+#main{
+    font-size: 40px;
+    color: white;
+}
+.butto{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+.butto:hover{
+    color: black;
+    background-color: white;
+    border: 1px white solid;
+}
+
+.con2{
+    border: 2px solid black;
+    /* background-color: blanchedalmond; */
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 520px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 15px;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabb{
+    padding: 20px 20px 20px 20px;
+}
+.table{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 10px
+}
+#debutto{
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+#debutto:hover{
+    color: black;
+    background-color: white;
+    border: 1px white solid;
+}
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 9), rgb(255, 255, 255)) ;
+    /* background-image: url("/Projects/P8 - To do List/image.png") ; */
+   
+}

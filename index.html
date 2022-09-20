@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="con1">
+            <h2 id="main" class="text-center">ToDo's List</h2>
+            <div class="input-title">
+                <label class="heading1" for="title">Title</label><br>
+                <input type="text" class="tti" id="title">
+                <br>
+                <small class="nna">Add an item to the list</small>
+            </div>
+            <br>
+            <div class="input-description">
+                <label class="heading2" for="title">Description</label>
+                <br>
+                <textarea name="" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <button class="butto" id="add">Add to List</button>
+            <button class="butto" id="clear" onclick="clearStorage()">Clear list</button>
+        </div>
+        <div class="con2">
+            <div id="items" class="my-4">
+                <h2>Your Items</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="tabb" scope="col"><u>SL.N0</u></th>
+                            <th class="tabb" scope="col"><u>Item Title</u></th>
+                            <th class="tabb" scope="col"><u>Item Description</u></th>
+                            <th class="tabb" scope="col"><u>Action</u></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td><button id="debutto" class="btn btn-sm btn-primary">Delete</button></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <script src="/script.js"></script>
+    </div>
+</body>
+
+</html>
